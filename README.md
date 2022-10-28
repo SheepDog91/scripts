@@ -1,23 +1,19 @@
-* scripts
+<h1>scripts</h1>
 
-A collection of scripts I wrote and a brief explantion of what they do, they were wrote so that I wouldnt have to manualy do it by hand.
+A collection of scripts I wrote and a brief explantion of what they do<br>
+I wrote them so that I wouldnt have to manualy do it by hand.
 
-# base_install.sh
-Automated bash script
-Download all my prefered applications on top of a clean debian minimal net install
+<h3>Automated BASH Script's</h3>
 
-# backup_system.sh
-Automated bash script
-Pull all my configurations into one place
+* <a href="https://github.com/SheepDog91/scripts/blob/main/base_install.sh">base_install.sh</a><br>
+Download all my prefered applications on top of a clean debian minimal net install<br>
 
-# restore_system.sh
-Automated bash script
-Push all my configurations back into place
+* backup_system.sh<br>
+Pull all my configurations into one place<br>
 
-# backup_data.sh
-Automated bash script
-Pull all my data into one place
-
-# restore_data.sh
-Automated bash script
-Push all my data back into place
+* restore_system.sh<br>
+Push all my configurations back into place<br>
+* backup_data.sh<br>
+Pull all my data into one place<br>
+* restore_data.sh<br>
+Push all my data back into place<br>
