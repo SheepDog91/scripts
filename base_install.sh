@@ -7,7 +7,9 @@
 
 # Restore my software repositories
 
-wget https://raw.githubusercontent.com/sheepdog91/dotfiles/main/etc/apt/sources.list /etc/apt/sources.list
+wget https://raw.githubusercontent.com/sheepdog91/dotfiles/main/etc/apt/sources.list 
+cp sources.list /etc/apt/sources.list
+rm sources.list
 
 # Update repository sources and check for updates
 
