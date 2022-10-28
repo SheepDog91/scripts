@@ -50,9 +50,9 @@ apt install neovim &&
 
     # GUI Applications
 
-    wget https://github.com/minbrowser/min/releases/download/v1.26.0/min-1.26.0-amd64.deb min.deb
-    dpkg -i min.deb
-    rm min.deb
+    wget https://github.com/minbrowser/min/releases/download/v1.26.0/min-1.26.0-amd64.deb
+    dpkg -i min-1.26.0-amd64.deb
+    rm min-1.26.0-amd64.deb
     &&
     
     # Terminal Applications
