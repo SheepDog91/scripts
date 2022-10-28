@@ -21,4 +21,4 @@ cp      dotfiles/home/xinitrc ~/.xinitrc &&
     
 cp -r   dotfiles/home/config/       ~/.config/nvim/ &&
 cp -r   dotfiles/home/config/       ~/.config/i3/ &&
-cp -r   dotfiles/home/config/       ~/.config/i3status/ &&
+cp -r   dotfiles/home/config/       ~/.config/i3status/
