@@ -52,7 +52,7 @@ apt install neovim &&
 apt install     libsecret-1-0 gconf2 gconf-service libgtk2.0-0 xdg-utils
     wget https://github.com/minbrowser/min/releases/download/v1.26.0/min-1.26.0-amd64.deb
     dpkg -i min-1.26.0-amd64.deb
-    rm min-1.26.0-amd64.deb
+    rm min-1.26.0-amd64.deb\
     &&
     
     # Terminal Applications
