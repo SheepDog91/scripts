@@ -50,7 +50,9 @@ apt install neovim &&
 
     # GUI Applications
 
-    apt install firefox-esr\
+    wget https://github.com/minbrowser/min/releases/download/v1.26.0/min-1.26.0-amd64.deb min.deb
+    dpkg -i min.deb
+    rm min.deb
     &&
     
     # Terminal Applications
@@ -65,4 +67,5 @@ apt install     docker\
                 ssh\
                 sudo\
 &&
+adduser sheepdog sudo
 reboot
