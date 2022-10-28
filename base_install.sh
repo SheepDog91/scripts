@@ -20,7 +20,7 @@ apt upgrade &&
 
 apt install fish &&
 chsh -s /usr/bin/fish root
-chsh -s /usr/bin.fish sheepdog
+chsh -s /usr/bin/fish sheepdog
 
 # Install my prefered text editor
 
@@ -31,7 +31,7 @@ apt install neovim &&
     # Base
 
     apt install xserver-xorg-core\
-                xserver-xorg-video-XXX\
+                xserver-xorg-video-amdgpu\
                 xserver-xorg-input-evdev\
                 x11-xserver-utils\
                 x11-xkb-utils\
@@ -40,7 +40,7 @@ apt install neovim &&
                 i3\
                 feh\
                 compton\
-                uxrvt\
+                rxvt-unicode\
                 alsa-utils\
                 pulseaudio\
                 pulseaudio-utils\
