@@ -41,11 +41,6 @@ apt install alsa-utils\
             pulseaudio-utils\
 &&
 
-# Window Manager
-
-apt install i3\
-&&
-
 # Image Viewer
 
 apt install feh\
@@ -58,6 +53,11 @@ apt install picom\
 
 # Terminal Emulator
 apt install kitty\
+&&
+
+# Window Manager
+
+apt install i3\
 &&
 
 # X.Org Minimum Install
